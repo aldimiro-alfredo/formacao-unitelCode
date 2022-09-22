@@ -1,0 +1,98 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+
+header{
+    background-color: brown;
+    height: 80px;
+    max-width: 95%;
+    margin: auto;
+}
+
+.cabacalho nav ul li{
+    list-style: none;
+    display: inline;
+    float: right;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.cabacalho nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.cabacalho a:hover {
+    background-color: skyblue;
+    color: black;
+    font-style: italic;
+}
+
+.info-boutique{
+    background-color: brown;
+    max-width: 95%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.info-boutique article{
+    margin: 10px;
+}
+
+.info-boutique article h1{
+    padding-top: 15px;
+    color: white;
+    text-align: justify;
+}
+.fotos-boutique{
+    max-width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.fotos-boutique .foto{
+    width: 70%;
+    margin: 0;
+}
+
+.fotos-boutique p{
+    background-color: brown;
+    color: white;
+    width: 30%;
+    border-radius: 2px;
+    text-align: center;
+    font-style: italic;
+
+}
+
+.rodape{
+    background-color: brown;
+    max-width: 95%;
+    margin: auto;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.rodape article{
+    max-width: 50%;
+    margin: auto;
+}
+
+.rodape li {
+    margin: 10px;
+    list-style: none;
+    text-align: center;
+}
