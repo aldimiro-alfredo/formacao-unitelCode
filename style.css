@@ -126,7 +126,11 @@ header{
 
 .button {
     padding: 20px 40px;
-    background-color: black;
     color: white;
     text-decoration: none;
+    border: 1px solid chocolate;
+}
+
+.button:hover{
+    background-color: chocolate;
 }
