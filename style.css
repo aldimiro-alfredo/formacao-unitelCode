@@ -12,7 +12,7 @@ body{
 header{
     background-color: brown;
     height: 80px;
-    max-width: 95%;
+    max-width: 100%;
     margin: auto;
 }
 
@@ -39,7 +39,7 @@ header{
 
 .info-boutique{
     background-color: brown;
-    max-width: 95%;
+    max-width: 100%;
     margin: auto;
     margin-top: 10px;
     display: flex;
@@ -56,7 +56,7 @@ header{
     text-align: justify;
 }
 .fotos-boutique{
-    max-width: 95%;
+    max-width: 100%;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -79,7 +79,7 @@ header{
 
 .rodape{
     background-color: brown;
-    max-width: 95%;
+    max-width: 100%;
     margin: auto;
     height: 200px;
     display: flex;
@@ -95,4 +95,38 @@ header{
     margin: 10px;
     list-style: none;
     text-align: center;
+}
+
+.img_fundo{
+    background-image: url(./img/home1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_fundo h1{
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.img_fundo span{
+    color: chocolate;
+}
+
+.img_fundo h3{
+    color: white;
+    margin-bottom: 15px;
+}
+
+.button {
+    padding: 20px 40px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
 }
