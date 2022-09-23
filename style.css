@@ -1,5 +1,7 @@
 *{
     font-family:Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
     margin: 0;
     padding: 0
 }
@@ -12,7 +14,6 @@ header{
 }
 
 .cabacalho nav ul li{
-    list-style: none;
     display: inline;
     float: right;
     margin-top: 20px;
@@ -20,75 +21,13 @@ header{
 }
 
 .cabacalho nav ul li a{
-    text-decoration: none;
     color: white;
     text-transform: uppercase;
-    padding: 20px;
+    padding: 20px 20px;
 }
 
 .cabacalho a:hover {
     background-color: chocolate;
-    color: black;
-}
-
-.info-boutique{
-    background-color: brown;
-    max-width: 100%;
-    margin: auto;
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
-}
-
-.info-boutique article{
-    margin: 10px;
-}
-
-.info-boutique article h1{
-    padding-top: 15px;
-    color: white;
-    text-align: justify;
-}
-.fotos-boutique{
-    max-width: 100%;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-}
-
-.fotos-boutique .foto{
-    width: 70%;
-    margin: 0;
-}
-
-.fotos-boutique p{
-    background-color: brown;
-    color: white;
-    width: 30%;
-    border-radius: 2px;
-    text-align: center;
-    font-style: italic;
-
-}
-
-.rodape{
-    background-color: brown;
-    max-width: 100%;
-    margin: auto;
-    height: 200px;
-    display: flex;
-    flex-direction: row;
-}
-
-.rodape article{
-    max-width: 50%;
-    margin: auto;
-}
-
-.rodape li {
-    margin: 10px;
-    list-style: none;
-    text-align: center;
 }
 
 .img_fundo{
@@ -127,4 +66,104 @@ header{
 
 .button:hover{
     background-color: chocolate;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    font-size: 100%;
+}
+
+.titulo h1{
+    margin-bottom: 15px;
+    font-size: 2rem;
+}
+
+.titulo span{
+    color: chocolate;
+}
+
+.titulo p{
+    max-width: 500px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.titulo hr{
+    width: 300px;
+    height: 5px;
+    background-color: chocolate;
+}
+
+.titulo{
+    max-width: 500px;
+    text-align: center;
+    font-weight: 500px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 500px;
+}
+
+.card-img img{
+    width: 400px;
+    height: 400px;
+}
+.card-body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 8px 3px 3px black;
+}
+
+.titulo-corte-masculino{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.titulo-corte-femenino{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.card-titulo h1{
+    padding: 10px 0 0 10px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.card-titulo h2{
+    padding: 10px 0 0 10px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+@media(max-width: 700px){
+    .card-body{
+        margin-bottom: 10px;
+    }
+}
+
+.rodape{
+    background-color: chocolate;
+    width: 100%;
+    height: 100px;
+    padding: 50px;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.rodape p{
+    color: white;
 }
